@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evans Ongwae - Computer Scientist Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Evans Ongwae</a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Evans Ongwae</span></h1>
+                    <p class="tagline">Hard and Smart Worker with an Industrious Mentality – A Computer Scientist Driving Innovation in Web, AI, Mobile, and Cybersecurity.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="resume.pdf" download class="btn btn-secondary">Download Resume <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-placeholder">
+                    <img src="images/your-photo.jpg" alt="Evans Ongwae's Professional Photo">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section common-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>I'm a passionate and versatile Computer Scientist with a strong foundation in modern technologies, graduating from MKU University in 2025. My expertise spans a dynamic range of fields, including **Web Development, Artificial Intelligence/Machine Learning, Mobile Application Development, Cybersecurity, and Data Science**. I thrive on tackling complex challenges and delivering innovative solutions.</p>
+                    <p>My journey in computer science is driven by an industrious mentality and a commitment to continuous learning. I'm always exploring new paradigms and tools to build efficient, scalable, and impactful applications. Let's connect and build something extraordinary!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section common-section">
+            <div class="container">
+                <h2>My Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Frontend & Backend expertise, building responsive and dynamic web applications.</p>
+                        <div class="languages">
+                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Node.js</span><span>Django</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Developing intelligent systems for data analysis, prediction, and automation.</p>
+                        <div class="languages">
+                            <span>Python</span><span>TensorFlow</span><span>PyTorch</span><span>Keras</span><span>Scikit-learn</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Development</h3>
+                        <p>Crafting intuitive and high-performance applications for iOS and Android platforms.</p>
+                        <div class="languages">
+                            <span>Java</span><span>Kotlin</span><span>Swift</span><span>React Native</span><span>Flutter</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity</h3>
+                        <p>Securing digital assets and building robust defenses against cyber threats.</p>
+                        <div class="languages">
+                            <span>Network Security</span><span>Pen Testing</span><span>Cryptography</span><span>Security Audits</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Science</h3>
+                        <p>Extracting insights from data for informed decision-making and strategic growth.</p>
+                        <div class="languages">
+                            <span>Python (Pandas, NumPy)</span><span>SQL</span><span>R</span><span>Data Visualization</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Core Programming</h3>
+                        <p>Strong foundation in fundamental programming concepts and efficient algorithms.</p>
+                        <div class="languages">
+                            <span>Python</span><span>Java</span><span>JavaScript</span><span>C#</span><span>Go</span><span>Rust</span><span>TypeScript</span><span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section common-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="images/project-ecommerce.jpg" alt="E-commerce Web App">
+                        <div class="project-info">
+                            <h3>E-Commerce Reimagined</h3>
+                            <p>A full-stack e-commerce platform featuring secure user authentication, product listings, shopping cart functionality, and integrated payment gateways. Built with scalability in mind for a seamless user experience.</p>
+                            <div class="project-tech">
+                                <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Stripe API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                                <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/project-ai.jpg" alt="AI Sentiment Analysis">
+                        <div class="project-info">
+                            <h3>SocialPulse AI</h3>
+                            <p>An AI-powered tool developed to analyze sentiment from social media posts and customer reviews. Utilizes natural language processing (NLP) to classify text as positive, negative, or neutral, providing valuable market insights.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>TensorFlow</span><span>Keras</span><span>NLTK</span><span>Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                                <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/project-mobile.jpg" alt="Mobile Fitness Tracker App">
+                        <div class="project-info">
+                            <h3>FitTrack Pro</h3>
+                            <p>A cross-platform mobile application designed to help users track their fitness goals, log workouts, monitor progress, and access personalized workout plans. Features intuitive UI/UX and offline capabilities.</p>
+                            <div class="project-tech">
+                                <span>React Native</span><span>Firebase</span><span>Redux</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                                <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/project-cyber.jpg" alt="NIDS Simulator">
+                        <div class="project-info">
+                            <h3>CyberGuard NIDS Simulator</h3>
+                            <p>A simulated Network Intrusion Detection System (NIDS) demonstrating real-time traffic monitoring and anomaly detection. Designed to identify potential threats and suspicious activities within a network environment.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>Scapy</span><span>Networking Concepts</span><span>Data Visualization</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="btn-link"><i class="fas fa-eye"></i> Live Demo</a>
+                                <a href="#" target="_blank" class="btn-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section common-section">
+            <div class="container">
+                <h2>Work Experience & Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior Software Developer <br><small>Tech Innovations Inc.</small></h3>
+                            <p>Led development teams on critical projects, implementing scalable solutions using cutting-edge technologies. Mentored junior developers and contributed to architectural design decisions.</p>
+                            <ul>
+                                <li>Developed and deployed high-traffic microservices using Go and Kubernetes.</li>
+                                <li>Implemented CI/CD pipelines, reducing deployment time by 30%.</li>
+                                <li>Managed a team of 5 developers on a major product rewrite.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2023</div>
+                        <div class="timeline-content">
+                            <h3>Software Engineer <br><small>Digital Solutions Ltd.</small></h3>
+                            <p>Contributed to the development of enterprise-level applications, focusing on backend logic and API integrations. Gained expertise in agile methodologies.</p>
+                            <ul>
+                                <li>Designed and implemented RESTful APIs for client applications.</li>
+                                <li>Optimized database queries, improving system performance by 20%.</li>
+                                <li>Collaborated with cross-functional teams to deliver new features.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - 2022</div>
+                        <div class="timeline-content">
+                            <h3>Junior Developer <br><small>Innovate Systems</small></h3>
+                            <p>Started my professional journey, focusing on front-end development and learning best practices in software engineering.</p>
+                            <ul>
+                                <li>Developed responsive user interfaces using HTML, CSS, and JavaScript.</li>
+                                <li>Assisted in debugging and maintaining existing codebases.</li>
+                                <li>Participated in daily stand-ups and code reviews.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - 2025</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Science in Computer Science <br><small>Mount Kenya University (MKU)</small></h3>
+                            <p>Comprehensive study of computer science principles, algorithms, data structures, software engineering, and artificial intelligence.</p>
+                            <ul>
+                                <li>Graduated with Honors.</li>
+                                <li>Completed a capstone project on AI-driven data analytics.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section common-section">
+            <div class="container">
+                <h2>My Blog</h2>
+                <div class="blog-grid">
+                    <div class="blog-post-card">
+                        <img src="images/blog-ai-future.jpg" alt="Blog Post 1">
+                        <h3>The Future of AI in Web Development</h3>
+                        <p class="blog-excerpt">Exploring how artificial intelligence is set to revolutionize web development, from automated coding to intelligent user interfaces...</p>
+                        <a href="#" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-post-card">
+                        <img src="images/blog-cyber-tips.jpg" alt="Blog Post 2">
+                        <h3>Top 5 Cybersecurity Tips for Developers</h3>
+                        <p class="blog-excerpt">Essential security practices every developer should implement to protect applications and data from common vulnerabilities...</p>
+                        <a href="#" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-post-card">
+                        <img src="images/blog-mobile-trends.jpg" alt="Blog Post 3">
+                        <h3>Latest Trends in Mobile App Design</h3>
+                        <p class="blog-excerpt">A deep dive into the evolving landscape of mobile app design, focusing on user experience, performance, and cross-platform development...</p>
+                        <a href="#" class="btn-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="view-all-button">
+                    <a href="#" class="btn btn-primary">View All Blog Posts</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section common-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <p>Have a project in mind, a question, or just want to say hi? Feel free to reach out!</p>
+                    <div class="contact-info-grid">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>Email: <a href="mailto:evansongwae07@gmail.com">evansongwae07@gmail.com</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>Phone: <a href="tel:+254702245252">0702245252</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Location: Thika, Kiambu County, Kenya</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Evans Ongwae. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/your-github-profile" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
