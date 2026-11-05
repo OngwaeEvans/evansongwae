@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://evansongwae.netlify.app/sitemap.xml
