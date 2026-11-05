@@ -1,0 +1,32 @@
+{
+  "name": "evans-ongwae-cave",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Evans Ongwae Cave — the personal digital headquarters of Evans Ongwae Onchoke and the public gateway into the Hevloys Group ecosystem.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.69.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.15",
+    "typescript": "~5.8",
+    "vite": "^6.4.5"
+  }
+}
